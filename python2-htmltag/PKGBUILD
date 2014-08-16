@@ -7,7 +7,9 @@ pkgdesc="Python HTML tag interface"
 license=('Apache')
 arch=('i686' 'x86_64')
 url="https://github.com/LiftoffSoftware/htmltag"
-depends=('python2' 'python2-sphinx')
+depends=('python2')
+makedepends=('python2-sphinx')
+provides=(${pkgname})
 source=(https://pypi.python.org/packages/source/h/htmltag/htmltag-${pkgver}.tar.gz)
 md5sums=('d3a4b810df9877ebf0239d642ee3c3bb')
 
