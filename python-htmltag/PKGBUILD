@@ -21,4 +21,5 @@ build() {
 package_python-htmltag() {
   cd htmltag-${pkgver}
   python3 setup.py install --root="${pkgdir}"
+  install -Dm644 LICENSE.txt "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
 }
