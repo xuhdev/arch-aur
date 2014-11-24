@@ -29,6 +29,13 @@ package() {
   cd "${srcdir}/EditorConfig-${pkgver}"
   /usr/bin/python2 setup.py install --root="${pkgdir}"
   install -Dm644 LICENSE.txt "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.txt"
+
+  cat << EEOOFF
+  WARNING: This package has removed the executable /usr/bin/editorconfig file.
+  If you need this executable, please install editorconfig-core-c
+  (https://aur.archlinux.org/packages/editorconfig-core-c), which provides a
+  faster executable.
+EEOOFF
 }
 
 # TODO: Add check()
