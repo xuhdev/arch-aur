@@ -1,6 +1,6 @@
 # Maintainer: Hong Xu <hong at topbug dot net>
 # Git repo of this file: https://github.com/xuhdev/arch-aur/tree/master/xfce4-i3-workspaces-plugin-git
-pkgname=xfce4-i3-workspaces-plugin
+pkgname=xfce4-i3-workspaces-plugin-git
 pkgver=20141221
 pkgrel=1
 pkgdesc="A workspace switcher plugin for xfce4-panel which can be used for the i3 window manager"
