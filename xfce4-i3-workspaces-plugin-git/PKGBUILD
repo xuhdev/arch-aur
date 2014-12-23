@@ -9,7 +9,7 @@ url="https://github.com/denesb/xfce4-i3-workspaces-plugin"
 source=("${pkgname}::git+https://github.com/denesb/xfce4-i3-workspaces-plugin")
 license=('GPLv3')
 depends=('xfce4-panel' 'i3ipc-glib')
-makedepends=('git' 'autoconf' 'automake')
+makedepends=('git' 'autoconf' 'automake' 'xfce4-dev-tools')
 provides=('xfce4-i3-workspaces-plugin')
 md5sums=('SKIP')
 
